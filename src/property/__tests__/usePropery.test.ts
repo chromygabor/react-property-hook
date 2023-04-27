@@ -1,4 +1,7 @@
-import { act, renderHook } from '@testing-library/react-hooks';
+/**
+ * @jest-environment jsdom
+ */
+import { act, renderHook } from '@testing-library/react';
 import { useRef } from 'react';
 import { useProperty } from '../useProperty';
 
